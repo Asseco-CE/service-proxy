@@ -6,7 +6,7 @@
 	    <groupId>org.membrane-soa</groupId>
         <artifactId>service-proxy-parent</artifactId>
         <relativePath>../pom.xml</relativePath>
-	    <version>4.1.1-SNAPSHOT</version>
+	    <version>ace-4.1.1-SNAPSHOT</version>
     </parent>
     <name>service-proxy-slf4j-osgi</name>
 

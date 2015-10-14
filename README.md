@@ -1,3 +1,11 @@
+Asseco CE - fork of Service Proxy
+=================================
+
+It contais merged patches used in Asseco CE.  This repository is not used for publishing any new patches.
+All merged patches should be offered as a pull request back to the service-proxy/master.
+
+Look at history for merged patches.
+
 Membrane Service Proxy
 ======================
 

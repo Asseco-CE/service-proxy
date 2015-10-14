@@ -17,7 +17,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.membrane-soa</groupId>
 	<artifactId>service-proxy-parent</artifactId>
-	<version>4.1.1-SNAPSHOT</version>
+	<version>ace-4.1.1-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
 	<description>Membrane Service Proxy is an open source, reverse HTTP proxy framework written in Java, licensed under ASF 2.0, that can be used as 
 	- Service Virtualization layer
@@ -637,6 +637,9 @@
 		</profile>
 	</profiles>
 
+    <!--
+
+
 	<distributionManagement>
 		<repository>
 			<id>predic8-releases</id>
@@ -647,4 +650,25 @@
 			<url>http://repository.membrane-soa.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
+
+
+    -->
+
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>ace-releases</id>
+            <name>ace-releases</name>
+            <url>http://nexus/content/repositories/releases</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>ace-snapshots</id>
+            <name>ace-snapshots</name>
+            <url>http://nexus/content/repositories/snapshots</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
